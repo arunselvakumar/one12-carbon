@@ -11,6 +11,9 @@ export class MainComponent implements OnInit {
     }
 
     ngOnInit() {
+        let i = 0;
+        i++;
+        console.log(i);
     }
 
 }

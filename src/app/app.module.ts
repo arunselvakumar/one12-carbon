@@ -1,14 +1,15 @@
-import {BrowserModule} from "@angular/platform-browser";
-import {NgModule} from "@angular/core";
-import {FlexLayoutModule} from "@angular/flex-layout";
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { FlexLayoutModule } from "@angular/flex-layout";
 
-import {AppRoutingModule} from "./app-routing.module";
-import {AppComponent} from "./app.component";
-import {HomeComponent} from "./components/home/home.component";
-import {HeaderComponent} from "./components/shared/header/header.component";
-import {MainComponent} from "./components/main.component";
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import {MaterialModule} from "./app.material.module";
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { HomeComponent } from "./components/home/home.component";
+import { HeaderComponent } from "./components/shared/header/header.component";
+import { MainComponent } from "./components/main.component";
+import { MaterialModule } from "./app.material.module";
+import { PostComponent } from "./components/post/post.component";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {MaterialModule} from "./app.material.module";
     HomeComponent,
     HeaderComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
